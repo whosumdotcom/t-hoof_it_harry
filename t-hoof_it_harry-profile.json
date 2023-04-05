@@ -1,20 +1,36 @@
 {
   "TermsOfServiceVersion": 1,
-  "TermsAgreedToWhen": "2023-04-05T13:51:58Z",
+  "TermsAgreedToWhen": "2023-04-05T15:18:59Z",
   "IdClaims": [
     {
       "Claim": "t:hoof_it_harry"
+    },
+    {
+      "Claim": "spout:hoof_it_harry"
     }
   ],
-  "IdDisclaims": null,
+  "IdDisclaims": [
+    {
+      "Claim": "med:no-account"
+    },
+    {
+      "Claim": "pat:no-account"
+    },
+    {
+      "Claim": "post:no-account"
+    },
+    {
+      "Claim": "ss:no-account"
+    }
+  ],
   "Signature": {
     "Authority": "https://whosum.com",
     "PublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApF0NC9C13limzP9H5\u002BcXoWEddOfjDdysecEWNhNxS3yCWdRJjsCpIWY3euUxIFWw9W9Zkbo1tx8YbnLVdCPd7qORelTZZR5I9IvQdsyyqZIeAuw4xk/VcK119Kme13cqhsjOtgCrdekjz5YEklZqXdZKclJMc2fqHjOfHl07lYXWmqx8FxCUjjGCkBcr4WZD/uvs0SXRACkXS01bP0Wbao1sHxyFoADHV5i8Yvg2o32Sy37DMMMOfjO8ZpqqwNKVEs04gGL\u002BnGkDqNP/6lIaTinrzCJe57qcorGcVlWGdV4nC5uMgIgqZ/7pzrCHF5WbXai3g3AObmPJ5eG8TCTsrQIDAQAB",
-    "Nonce": "104ebc4aed5ee7752e0b7fdd",
-    "Timestamp": "2023-04-05T13:52:43Z",
-    "Signature": "2868d9d8d71446344eef08863b73a3caf9d1c9c7de5bc4c36c3c24e20bc319b42666cb07cfbe639eee586b26d377cf9c80ffb54128c3473982fb55497fcc4924b13e3eeb70f6d7de8a98f5e37e9be8b9337d2224b39a04f1bbdb5d8f753b1bcabeedd454db1f99199890494bbdf03c05e469d7b10733d869692e6f4227838721cb927e39e5cecd08bceff4ac981f73f94da49c0d1e9e1cd606c4a47d1e56e0de1f53693c814865eebad2de501e7e1961d2d1fcc0a0ebc4e80ea73633981d0fe814f6c87dba1ba13bea2787bb076a5f62bffd6cec6693b2cbab629d215324df9a6d7f3c0da5bdd3c4cb793ac61f0a6f63a4a49079b1c5485041a0355f489a3b1c"
+    "Nonce": "8ad97c7e35b743f21a129fd9",
+    "Timestamp": "2023-04-05T15:19:52Z",
+    "Signature": "9f19bd0f7d831090d229a750c576b148fd57c56661c2247a179ffd68db5de9b460f5d6512157cb3d7a5dd72fed664a691ea3d79bb86eb8ee817f918858827571f4c136cd9892c65abf60f09d25274835ca3c803ec35d0453be7da3b9268775fa5ea8cc8643de5765f3b69266b6a6b17d3d09faeeb34782dd6fe3eaa5af70911cfeee46f95460a95957972ab1327d43d0625cde96dca3e8358a9ee47ffc597a739067107523c32a3b0d6ccc7c0e94c78c71aacb22bb8c8ef55621cb7197dc5a78b71aa5e76ba622a745e5c6417bbc702a77555d2f8012395de39d7a1b0f603c9aa716f2865141604c0e347d61835506a6aade7b34032719f5f69cdf489c6e95ac"
   },
   "AgreedToTerms": true,
-  "ContentSha256": "822fa023d15f7c539758945aeb3fab29b1d946123b27865a33c9bc7422d126db",
-  "ContentToHash": "v1|t:hoof_it_harry|2023-04-05T13:51:58Z"
+  "ContentSha256": "515b147911298294df6a4e0855c908622e398fbf97bc12c5ef3ae4dd3da1f011",
+  "ContentToHash": "v1|med:no-account,pat:no-account,post:no-account,spout:hoof_it_harry,ss:no-account,t:hoof_it_harry|2023-04-05T15:18:59Z"
 }
